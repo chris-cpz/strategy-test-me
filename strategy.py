@@ -64,14 +64,6 @@ if __name__ == "__main__":
     print("Sharpe Ratio: " + str(sharpe_ratio))
     print("Max Drawdown: " + str(max_drawdown))
 
-    # Plot the results
-    plt.figure(figsize=(10, 6))
-    plt.plot(cumulative_returns, label='Strategy Returns')
-    plt.title('Mean Reversion Strategy Backtest')
-    plt.xlabel('Date')
-    plt.ylabel('Cumulative Returns')
-    plt.legend()
-    plt.show()
 
 # Strategy Analysis and Performance
 # Add your backtesting results and analysis here
